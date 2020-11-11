@@ -1,6 +1,7 @@
 import React from 'react'
 import './Product.css'
-
+import GradeIcon from '@material-ui/icons/Grade';
+import { green } from '@material-ui/core/colors';
 
 function Product({ title, image, price, rating }) {
     return (
@@ -14,7 +15,8 @@ function Product({ title, image, price, rating }) {
                 <div className="product_rating" >
                     {
                         Array(rating).fill().map((_, i) => (
-                            <p>💝</p>
+                            // <p>💝</p>
+                            <GradeIcon style={{ color: green[500] }} />
                         ))
                     }
 
