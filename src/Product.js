@@ -1,7 +1,5 @@
 import React from 'react'
 import './Product.css'
-import GradeIcon from '@material-ui/icons/Grade';
-import { green } from '@material-ui/core/colors';
 import { useStateValue } from './StateProvider';
 
 function Product({ id, title, image, price, rating }) {
@@ -37,8 +35,8 @@ function Product({ id, title, image, price, rating }) {
                 <div className="product_rating" >
                     {
                         Array(rating).fill().map((_, i) => (
-                            // <p>💝</p>
-                            <GradeIcon style={{ color: green[500] }} />
+                            <p>⭐</p>
+
                         ))
                     }
 
