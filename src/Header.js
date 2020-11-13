@@ -52,13 +52,13 @@ function Header() {
                     </span>
                 </div>
                 {/* header option basket */}
-                <div className="header_option_basket">
+                <Link to="/checkout"> <div className="header_option_basket">
                     <ShoppingBasketIcon />
                     <span className="header_option_line_two header_basket_count" >
                         0
                     </span>
 
-                </div>
+                </div></Link>
 
             </div>
 

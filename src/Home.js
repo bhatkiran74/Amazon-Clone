@@ -12,6 +12,7 @@ function Home() {
 
                 <div className="home_row">
                     <Product
+                        id={123456}
                         title="Coolnut 31200mAh Power Bank/Mini Inverter/Power Backup for All Laptops,Tablets,Smart Phones,WiFi Routers"
                         image="https://m.media-amazon.com/images/I/51VWv9qu44L._AC_UL320_.jpg"
                         price={299}
@@ -19,6 +20,7 @@ function Home() {
 
                     />
                     <Product
+                        id={123456}
                         title="OnePlus 8 Pro (Ultramarine Blue 12GB RAM+256GB Storage)"
                         image="https://m.media-amazon.com/images/I/412Yk7LIQzL.__AC_SY200_.jpg"
                         price={299}
@@ -26,6 +28,7 @@ function Home() {
 
                     />
                     <Product
+                        id={123456}
                         title="Juârez Acoustic Guitar, 38 Inch Cutaway, 038C with Bag, Strings, Pick and Strap, Black"
                         image="https://images-eu.ssl-images-amazon.com/images/I/71y1TJbygLL._AC_UL200_SR200,200_.jpg"
                         price={299}
@@ -36,6 +39,7 @@ function Home() {
                 </div>
                 <div className="home_row">
                     <Product
+                        id={123456}
                         title="iBELL Demolition Hammer IBL DH10-78,1150W,4100RPM,230V,17MM - 6 Months Warranty"
                         image="https://images-eu.ssl-images-amazon.com/images/I/41QM98S6TGL._AC_SX184_.jpg"
                         price={299}
@@ -43,6 +47,7 @@ function Home() {
 
                     />
                     <Product
+                        id={123456}
                         title="iBELL Demolition Hammer IBL DH10-78,1150W,4100RPM,230V,17MM - 6 Months Warranty"
                         image="https://images-eu.ssl-images-amazon.com/images/I/41QM98S6TGL._AC_SX184_.jpg"
                         price={299}
@@ -50,6 +55,7 @@ function Home() {
 
                     />
                     <Product
+                        id={123456}
                         title="iBELL Demolition Hammer IBL DH10-78,1150W,4100RPM,230V,17MM - 6 Months Warranty"
                         image="https://images-eu.ssl-images-amazon.com/images/I/41QM98S6TGL._AC_SX184_.jpg"
                         price={299}
@@ -57,6 +63,7 @@ function Home() {
 
                     />
                     <Product
+                        id={123456}
                         title="iBELL Demolition Hammer IBL DH10-78,1150W,4100RPM,230V,17MM - 6 Months Warranty"
                         image="https://images-eu.ssl-images-amazon.com/images/I/41QM98S6TGL._AC_SX184_.jpg"
                         price={299}
@@ -65,10 +72,22 @@ function Home() {
                     />
                 </div>
                 <div className="home_row">
-                    {/* product */}
-                    {/*  product*/}
-                    <Product />
-                    {/* product */}
+                    <Product
+                        id={123456}
+                        title="Coolnut 31200mAh Power Bank/Mini Inverter/Power Backup for All Laptops,Tablets,Smart Phones,WiFi Routers"
+                        image="https://m.media-amazon.com/images/I/51VWv9qu44L._AC_UL320_.jpg"
+                        price={299}
+                        rating={2}
+
+                    />
+                    <Product
+                        id={123456}
+                        title="Coolnut 31200mAh Power Bank/Mini Inverter/Power Backup for All Laptops,Tablets,Smart Phones,WiFi Routers"
+                        image="https://m.media-amazon.com/images/I/51VWv9qu44L._AC_UL320_.jpg"
+                        price={299}
+                        rating={2}
+
+                    />
                 </div>
 
             </div>

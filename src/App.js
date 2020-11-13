@@ -10,9 +10,9 @@ function App() {
   return (
     <Router>
       <div className="app">
-        {/* header components */}
         <Header />
         <Switch>
+          {/* header components */}
 
           <Route path="/checkout">
 
@@ -20,14 +20,12 @@ function App() {
           </Route>
 
           <Route path="/">
+
             <Home />
           </Route>
 
 
-
         </Switch>
-
-
       </div>
     </Router>
   );
