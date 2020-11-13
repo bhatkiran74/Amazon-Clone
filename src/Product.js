@@ -5,7 +5,9 @@ import { green } from '@material-ui/core/colors';
 import { useStateValue } from './StateProvider';
 
 function Product({ id, title, image, price, rating }) {
-    const [state, dispatch] = useStateValue();
+    const [{ basket }, dispatch] = useStateValue();
+
+    console.log("this is basket", basket)
 
     const addToBasket = () => {
         //dispatch item into the data layer
