@@ -24,6 +24,7 @@ const reducer = (state, action) => {
                 (basketItem) => basketItem.id === action.id
             )
 
+            console.warn(index);
             let newBasket = [...state.basket];
 
             if (index >= 0) {
