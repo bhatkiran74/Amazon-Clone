@@ -16,6 +16,15 @@ function Login() {
         e.preventDefault()
         //firebase stuff
 
+        auth.signInWithEmailAndPassword(email, password)
+            .then(auth => {
+                history.push('/')
+            })
+
+
+
+
+
     }
 
     const register = e => {
